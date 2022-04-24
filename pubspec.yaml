@@ -1,0 +1,42 @@
+name: happysmacks
+description: happysmacks.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0+4
+  charts_flutter: ^0.9.0
+  cupertino_icons: ^0.1.2
+  email_validator: '^1.0.0'
+  badges: ^1.1.6
+  sqflite: ^1.3.2+1
+  circular_check_box: ^1.0.4
+  flutter_datetime_picker: ^1.4.0
+  age: ^0.0.1
+  flutter_credit_card: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.0"
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "lib/images/HappySmackslogo.jpg"
+  image_path_android: "lib/images/HappySmackslogo.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/images/HappySmackslogo.jpg
+    - lib/images/image1.jpg
+    - lib/images/image2.jpg
+    - lib/images/image3.jpg
+    - lib/images/image4.jpg
+    - lib/images/image5.jpg
+
